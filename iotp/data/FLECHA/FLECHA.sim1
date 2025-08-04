@@ -1,0 +1,19 @@
+<circuit version="" rev="1657" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Package" CircId="Package-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-1020,-220" rotation="0" hflip="1" vflip="1" label="Flecha" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" SubcType="Board" Width="4 _Cells" Height="4 _Cells" Package_File="Flecha_LS.package" Background="0_INVIS.png" Logic_Symbol="true" />
+
+<item itemtype="Line" CircId="Line-24" mainComp="false" Show_id="false" Show_Val="false" Pos="-956,-224" rotation="90" hflip="1" vflip="1" label="Line-24" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="16,4" circPos="-956,-224" boardRot="90" circRot="90" H_size="8 Pixels" V_size="0 Pixels" Border="2 _Pixels" Z_Value="-1" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Line" CircId="Line-25" mainComp="false" Show_id="false" Show_Val="false" Pos="-948,-220" rotation="-90" hflip="1" vflip="1" label="Line-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="24,8" circPos="-948,-220" boardRot="-90" circRot="-90" H_size="16 Pixels" V_size="17 Pixels" Border="2 _Pixels" Z_Value="-1" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Line" CircId="Line-26" mainComp="false" Show_id="false" Show_Val="false" Pos="-948,-204" rotation="0" hflip="1" vflip="1" label="Line-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="24,24" circPos="-948,-204" boardRot="0" circRot="0" H_size="16 Pixels" V_size="17 Pixels" Border="2 _Pixels" Z_Value="-1" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Line" CircId="Line-27" mainComp="true" Show_id="false" Show_Val="false" Pos="-964,-220" rotation="0" hflip="1" vflip="1" label="Line-27" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="8,8" circPos="-964,-220" boardRot="0" circRot="0" H_size="16 Pixels" V_size="0 Pixels" Border="2 _Pixels" Z_Value="-1" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Line" CircId="Line-28" mainComp="false" Show_id="false" Show_Val="false" Pos="-964,-204" rotation="0" hflip="1" vflip="1" label="Line-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="8,24" circPos="-964,-204" boardRot="0" circRot="0" H_size="16 Pixels" V_size="0 Pixels" Border="2 _Pixels" Z_Value="-1" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Line" CircId="Line-29" mainComp="false" Show_id="false" Show_Val="false" Pos="-956,-200" rotation="90" hflip="1" vflip="1" label="Line-29" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="16,28" circPos="-956,-200" boardRot="90" circRot="90" H_size="8 Pixels" V_size="0 Pixels" Border="2 _Pixels" Z_Value="-1" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Line" CircId="Line-30" mainComp="false" Show_id="false" Show_Val="false" Pos="-972,-212" rotation="90" hflip="1" vflip="1" label="Line-30" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="0,16" circPos="-972,-212" boardRot="90" circRot="90" H_size="16 Pixels" V_size="0 Pixels" Border="2 _Pixels" Z_Value="-1" Color="#ff0000" Opacity="1" />
+
+</circuit>

@@ -1,0 +1,15 @@
+<circuit version="" rev="1452" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Package" CircId="Package-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-412,-28" rotation="0" hflip="1" vflip="1" label="AMPMETER" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" SubcType="Board" Width="7 Cells" Height="4 Cells" Package_File="AMPMETER_LS.package" Logic_Symbol="true" />
+
+<item itemtype="Amperimeter" CircId="Amperimeter-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-264,-4" rotation="0" hflip="1" vflip="1" label="Amperimeter-10" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="32,24" circPos="-264,-4" boardRot="0" circRot="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-280,12" rotation="0" hflip="1" vflip="1" label="Tunnel-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="132,40" circPos="-280,12" boardRot="0" circRot="0" Name="+" />
+
+<item itemtype="Tunnel" CircId="Tunnel-15" mainComp="false" Show_id="false" Show_Val="false" Pos="-280,28" rotation="0" hflip="1" vflip="1" label="Tunnel-15" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="132,56" circPos="-280,28" boardRot="0" circRot="0" Name="neg" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="Tunnel-13-pin" endpinid="Amperimeter-10-lPin" pointList="-280,12,-272,12" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="Tunnel-15-pin" endpinid="Amperimeter-10-rPin" pointList="-280,28,-256,28,-256,12" />
+
+</circuit>

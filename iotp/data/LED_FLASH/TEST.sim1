@@ -1,0 +1,23 @@
+<circuit version="1.1.0" rev="2116" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="INTPLED-5" mainComp="false" Show_id="true" Show_Val="false" Pos="-420,-92" rotation="0" hflip="-1" vflip="1" label="SW" idLabPos="26.7479,-0.822262" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Switch-65" Norm_Close="false" DT="false" Poles="1 _Poles" Key="*" />
+
+<mainCompProps MainCompId="LedBar-58" Color="Yellow" Size="1 _Leds" Grounded="false" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="0.6 Ω" />
+</item>
+
+<item itemtype="Subcircuit" CircId="LED_FLASH-7" mainComp="false" Show_id="true" Show_Val="false" Pos="-372,-88" rotation="0" hflip="1" vflip="1" label="TEST" idLabPos="21.6658,-6.01106" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="And Gate-11" Input_High_V="4 V" Input_Low_V="2 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="true" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<mainCompProps MainCompId="LedBar-40" Color="Green" Size="1 _Leds" Grounded="true" Threshold="2 V" MaxCurrent="0.02 A" Resistance="110 Ω" />
+
+<mainCompProps MainCompId="Resistor-5" Resistance="3 kΩ" />
+
+<mainCompProps MainCompId="LedBar-1" Color="Yellow" Size="1 _Leds" Grounded="true" Threshold="2 V" MaxCurrent="0.02 A" Resistance="110 Ω" />
+</item>
+
+<item itemtype="TextComponent" CircId="TextComponent-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-408,-140" rotation="0" hflip="1" vflip="1" label="TextComponent-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="3 _Pixels" Border="1 _Pixels" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Font_Color="#000080" Fixed_Width="false" Text="TEST" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="LED_FLASH-7-IN" endpinid="INTPLED-5-CNU" pointList="-380,-84,-412,-84" />
+
+</circuit>

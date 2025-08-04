@@ -1,0 +1,21 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Package" CircId="Package-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-76,80" rotation="0" hflip="1" vflip="1" label="REGULADOR" idLabPos="-8,-17" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Board" Width="4" Height="4" Package_File="REGULADOR.package" Background="color(250,40,0)" Logic_Symbol="false" />
+
+<item itemtype="VoltReg" CircId="VoltReg-1" mainComp="true" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-60,4" rotation="0" hflip="1" vflip="1" label="VoltReg-1" idLabPos="-16,-24" labelrot="0" valLabPos="15,12" valLabRot="0" boardPos="24,-88" circPos="-60,4" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Voltage="1.2 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-36,4" rotation="0" hflip="-1" vflip="1" label="Tunnel-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="48,-88" circPos="-36,4" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="OUTPUT" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-84,4" rotation="0" hflip="1" vflip="1" label="Tunnel-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="0,-88" circPos="-84,4" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="INPUT" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-60,28" rotation="-90" hflip="1" vflip="1" label="Tunnel-7" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="24,-64" circPos="-60,28" boardRot="-90" circRot="-90" boardHflip="1" boardVflip="1" Name="REF" IsBus="false" />
+
+<item itemtype="TextComponent" CircId="TextComponent-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-132,-56" rotation="0" hflip="1" vflip="1" label="TextComponent-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="REGULATOR FROM 1.2V" />
+
+<item itemtype="Connector" uid="connector-9" startpinid="Tunnel-7-pin" endpinid="VoltReg-1-ref" pointList="-60,28,-60,20" />
+
+<item itemtype="Connector" uid="connector-10" startpinid="Tunnel-5-pin" endpinid="VoltReg-1-input" pointList="-84,4,-76,4" />
+
+<item itemtype="Connector" uid="connector-8" startpinid="Tunnel-6-pin" endpinid="VoltReg-1-output" pointList="-36,4,-44,4" />
+
+</circuit>

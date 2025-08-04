@@ -1,0 +1,15 @@
+<circuit version="" rev="1657" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Rail" CircId="Rail-25" mainComp="true" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-84,-28" rotation="0" hflip="1" vflip="1" label="Rail-25" idLabPos="-16,-24" labelrot="0" valLabPos="-18,-8" valLabRot="0" boardPos="0,-56" circPos="-68,-44" boardRot="0" circRot="0" Voltage="5 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-26" mainComp="false" Show_id="false" Show_Val="false" Pos="-60,-28" rotation="0" hflip="-1" vflip="1" label="Tunnel-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="16,-80" circPos="-52,-68" boardRot="0" circRot="0" Name="VCC" IsBus="false" />
+
+<item itemtype="Package" CircId="Package-28" mainComp="false" Show_id="true" Show_Val="false" Pos="-68,12" rotation="0" hflip="1" vflip="1" label="5V" idLabPos="-5,-18" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" SubcType="Board" Width="0 Cells" Height="1 Cells" Package_File="5V_LS.package" Logic_Symbol="true" />
+
+<item itemtype="Ellipse" CircId="Ellipse-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-44,12" rotation="0" hflip="1" vflip="1" label="Ellipse-34" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="0,4" circPos="-44,12" boardRot="0" circRot="0" H_size="8 Pixels" V_size="8 Pixels" Border="1 Pixels" Z_Value="-1" Color="#ff0060" Opacity="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-35" mainComp="false" Show_id="false" Show_Val="false" Pos="-88,-68" rotation="0" hflip="1" vflip="1" label="TextComponent-35" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" Margin="1 _Pixels" Border="1 _Pixels" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Fixed_Width="true" Text="5 VOLTS" />
+
+<item itemtype="Connector" uid="connector-35" startpinid="Tunnel-26-pin" endpinid="Rail-25-outnod" pointList="-60,-28,-68,-28" />
+
+</circuit>

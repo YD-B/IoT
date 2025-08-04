@@ -1,0 +1,19 @@
+<circuit version="1.1.0" rev="2036" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Tunnel" CircId="Tunnel-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,12" rotation="0" hflip="1" vflip="1" label="Tunnel-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="136,68" circPos="-292,12" boardRot="0" circRot="0" Name="IN" IsBus="false" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-1" mainComp="true" Show_id="false" Show_Val="false" Pos="-260,-12" rotation="0" hflip="1" vflip="1" label="Voltimeter-1" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="32,24" circPos="-260,-12" boardRot="0" circRot="0" />
+
+<item itemtype="TextComponent" CircId="TextComponent-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-412,-8" rotation="-90" hflip="1" vflip="1" label="TextComponent-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="0,20" circPos="-412,-8" boardRot="-90" circRot="-90" Margin="-3 _Pixels" Border="0 _Pixels" Color="#ffffdc" Opacity="0" Font="Helvetica [Cronyx]" Font_Size="5 _Pixels" Font_Color="#000080" Fixed_Width="false" Text="DC" />
+
+<item itemtype="TextComponent" CircId="TextComponent-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,-96" rotation="0" hflip="1" vflip="1" label="TextComponent-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="52,-68" circPos="-360,-96" boardRot="0" circRot="0" Margin="1 _Pixels" Border="1 _Pixels" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Font_Color="#000080" Fixed_Width="false" Text="DC VOLTMETER" />
+
+<item itemtype="Package" CircId="Package-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-412,-28" rotation="0" hflip="1" vflip="1" label="VOLTMETER" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" SubcType="Board" Width="7 Cells" Height="4 Cells" Package_File="VOLTMETER_LS.package" Logic_Symbol="true" />
+
+<item itemtype="Ground" CircId="Ground-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,28" rotation="0" hflip="1" vflip="1" label="Ground-8" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="160,56" circPos="-252,28" boardRot="0" circRot="0" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Tunnel-3-pin" endpinid="Voltimeter-1-lPin" pointList="-292,12,-268,12,-268,4" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Ground-8-Gnd" endpinid="Voltimeter-1-rPin" pointList="-252,12,-252,4" />
+
+</circuit>
